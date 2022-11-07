@@ -1,8 +1,13 @@
+import AppRouter from "./routes/AppRouter";
+
+
 
 
 function App() {
   return (
-   <h1> Proyecto de react limpio</h1>
+    <>
+  <AppRouter/>
+   </>
   );
 }
 
